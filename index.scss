@@ -35,7 +35,7 @@ body {
   height: 100%;
 }
 
-.Storage {
+.storage {
   display: grid;
   grid-template-areas: "control meter";
   grid-gap: 30px;
@@ -53,27 +53,27 @@ body {
 }
 
 //Elements
-.Storage__container {
+.storage__container {
   position: relative;
 }
 
-.Storage__control {
+.storage__control {
   grid-area: control;
   width: 300px;
   box-shadow: $box-shadow-16dp;
   background-color: $dark_blue;
 }
 
-.Storage__logo {
+.storage__logo {
   display: flex;
   margin-bottom: 30px;
 }
 
-.Storage__button_container {
+.storage__button_container {
   display: flex;
 }
 
-.Storage__button {
+.storage__button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -83,7 +83,7 @@ body {
   background-color: $very_dark_blue;
 }
 
-.Storage__meter {
+.storage__meter {
   grid-area: meter;
   width: 540px;
 
@@ -92,7 +92,7 @@ body {
   }
 }
 
-.Storage__meter_inner_container {
+.storage__meter_inner_container {
   position: relative;
   width: 100%;
   height: 170px;
@@ -105,11 +105,11 @@ body {
   }
 }
 
-.Storage__gauge {
+.storage__gauge {
   margin-top: 14px;
 }
 
-.Storage__progress_bar_container {
+.progress_bar {
   display: flex;
   margin: 10px 0px;
   width: 100%;
@@ -118,7 +118,7 @@ body {
   height: 22px;
 }
 
-.Storage__progress_bar {
+.progress_bar__gauge {
   position: relative;
   align-self: center;
   left: 4px;
@@ -132,7 +132,7 @@ body {
   );
 }
 
-.Storage__progress_bar_indicator {
+.progress_bar__indicator {
   position: absolute;
   width: 10px;
   height: 10px;
@@ -142,7 +142,7 @@ body {
   background-color: $pale_blue;
 }
 
-.Storage__pop_over {
+.storage__pop_over {
   position: absolute;
   display: flex;
   justify-content: center;
@@ -177,13 +177,13 @@ body {
   }
 }
 
-.Storage__pop_over_value {
+.storage__pop_over_value {
   vertical-align: middle;
   font-size: 26pt;
   margin-right: 10px;
 }
 
-.Storage__pop_over_suffix {
+.storage__pop_over_suffix {
   vertical-align: middle;
   text-transform: uppercase;
   color: $grayish_blue;
