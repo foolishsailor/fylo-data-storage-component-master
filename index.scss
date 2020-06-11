@@ -35,7 +35,7 @@ body {
   height: 100%;
 }
 
-.storage {
+.Storage {
   display: grid;
   grid-template-areas: "control meter";
   grid-gap: 30px;
@@ -53,27 +53,27 @@ body {
 }
 
 //Elements
-.storage__container {
+.Storage__container {
   position: relative;
 }
 
-.storage__control {
+.Storage__control {
   grid-area: control;
   width: 300px;
   box-shadow: $box-shadow-16dp;
   background-color: $dark_blue;
 }
 
-.storage__logo {
+.Storage__logo {
   display: flex;
   margin-bottom: 30px;
 }
 
-.storage__button_container {
+.Storage__button_container {
   display: flex;
 }
 
-.storage__button {
+.Storage__button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -83,7 +83,7 @@ body {
   background-color: $very_dark_blue;
 }
 
-.storage__meter {
+.Storage__meter {
   grid-area: meter;
   width: 540px;
 
@@ -92,7 +92,7 @@ body {
   }
 }
 
-.storage__meter_inner_container {
+.Storage__meter_inner_container {
   position: relative;
   width: 100%;
   height: 170px;
@@ -105,11 +105,11 @@ body {
   }
 }
 
-.storage__gauge {
+.Progress_bar {
   margin-top: 14px;
 }
 
-.progress_bar {
+.Progress_bar__container {
   display: flex;
   margin: 10px 0px;
   width: 100%;
@@ -118,7 +118,7 @@ body {
   height: 22px;
 }
 
-.progress_bar__gauge {
+.Progress_bar__gauge {
   position: relative;
   align-self: center;
   left: 4px;
@@ -132,7 +132,7 @@ body {
   );
 }
 
-.progress_bar__indicator {
+.Progress_bar__indicator {
   position: absolute;
   width: 10px;
   height: 10px;
@@ -142,7 +142,7 @@ body {
   background-color: $pale_blue;
 }
 
-.storage__pop_over {
+.Storage__pop_over {
   position: absolute;
   display: flex;
   justify-content: center;
@@ -177,13 +177,13 @@ body {
   }
 }
 
-.storage__pop_over_value {
+.Storage__pop_over_value {
   vertical-align: middle;
   font-size: 26pt;
   margin-right: 10px;
 }
 
-.storage__pop_over_suffix {
+.Storage__pop_over_suffix {
   vertical-align: middle;
   text-transform: uppercase;
   color: $grayish_blue;
@@ -192,10 +192,10 @@ body {
 .border-radius-md {
   border-radius: 10px;
 }
-.border_radius_large--top_right {
+.border_radius_large___top_right {
   border-top-right-radius: 100px;
 }
-.border_radius_none--bottom_right {
+.border_radius_none___bottom_right {
   border-bottom-right-radius: 0px;
 }
 .pd_4 {

@@ -41,7 +41,7 @@ body {
   height: 100%;
 }
 
-.storage {
+.Storage {
   display: -ms-grid;
   display: grid;
       grid-template-areas: "control meter";
@@ -54,18 +54,18 @@ body {
 }
 
 @media (max-width: 775px) {
-  .storage {
+  .Storage {
         grid-template-areas: "control" "meter";
     height: 380px;
     width: 325px;
   }
 }
 
-.storage__container {
+.Storage__container {
   position: relative;
 }
 
-.storage__control {
+.Storage__control {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
   grid-area: control;
@@ -75,20 +75,20 @@ body {
   background-color: #1d2c67;
 }
 
-.storage__logo {
+.Storage__logo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 30px;
 }
 
-.storage__button_container {
+.Storage__button_container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.storage__button {
+.Storage__button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -104,7 +104,7 @@ body {
   background-color: #0c122c;
 }
 
-.storage__meter {
+.Storage__meter {
   -ms-grid-row: 1;
   -ms-grid-column: 2;
   grid-area: meter;
@@ -112,12 +112,12 @@ body {
 }
 
 @media (max-width: 775px) {
-  .storage__meter {
+  .Storage__meter {
     width: 100%;
   }
 }
 
-.storage__meter_inner_container {
+.Storage__meter_inner_container {
   position: relative;
   width: 100%;
   height: 170px;
@@ -129,16 +129,16 @@ body {
 }
 
 @media (max-width: 775px) {
-  .storage__meter_inner_container {
+  .Storage__meter_inner_container {
     position: relative;
   }
 }
 
-.storage__gauge {
+.Progress_bar {
   margin-top: 14px;
 }
 
-.progress_bar {
+.Progress_bar__container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -149,7 +149,7 @@ body {
   height: 22px;
 }
 
-.progress_bar__gauge {
+.Progress_bar__gauge {
   position: relative;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
@@ -162,7 +162,7 @@ body {
   background: linear-gradient(90deg, #fea09a 30%, #ff4d97 80%);
 }
 
-.progress_bar__indicator {
+.Progress_bar__indicator {
   position: absolute;
   width: 10px;
   height: 10px;
@@ -172,7 +172,7 @@ body {
   background-color: #dddbff;
 }
 
-.storage__pop_over {
+.Storage__pop_over {
   position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -192,7 +192,7 @@ body {
   font-weight: 700;
 }
 
-.storage__pop_over::after {
+.Storage__pop_over::after {
   display: block;
   position: absolute;
   right: 0px;
@@ -205,25 +205,25 @@ body {
 }
 
 @media (max-width: 775px) {
-  .storage__pop_over::after {
+  .Storage__pop_over::after {
     display: none;
   }
 }
 
 @media (max-width: 775px) {
-  .storage__pop_over {
+  .Storage__pop_over {
     right: 100px;
     top: 135px;
   }
 }
 
-.storage__pop_over_value {
+.Storage__pop_over_value {
   vertical-align: middle;
   font-size: 26pt;
   margin-right: 10px;
 }
 
-.storage__pop_over_suffix {
+.Storage__pop_over_suffix {
   vertical-align: middle;
   text-transform: uppercase;
   color: #848794;
@@ -233,11 +233,11 @@ body {
   border-radius: 10px;
 }
 
-.border_radius_large--top_right {
+.border_radius_large___top_right {
   border-top-right-radius: 100px;
 }
 
-.border_radius_none--bottom_right {
+.border_radius_none___bottom_right {
   border-bottom-right-radius: 0px;
 }
 
